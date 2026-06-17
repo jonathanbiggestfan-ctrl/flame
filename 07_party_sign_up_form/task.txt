@@ -8,22 +8,30 @@ We’ll follow the PRIMM model again:
 Look at the code in the JS panel. Don’t run it yet.  
 What do you think will happen when you type your name and region and click the button?  
 What do you think would happen if you left one of the fields blank?
+it'll welcome me to my reigon, which is yeah yeah cool
 
 🟢 RUN  
 Try it out. Type your name and region and click “Join the Party”.  
 What happens? Is it what you expected?
+Yeah it was what i predicted but fire :fire:
 
 🔵 INVESTIGATE  
 Let’s pick apart the code:
 - What keyword is used to make a variable?
+let (it's like let there be div or whatever the bible said)
 - What is the = sign doing?
+basically saying: ClownPierce is Lifesteal ClownPierce = Lifesteal
 - Which line grabs the name?
+2 in the script.js :3
 - Which line grabs the region?
+2 in script.js
 - How is the final message put together?
+Welcome NAME from REIGON and then the message of many thanks
 
 🟠 MODIFY  
 Now try improving how the message is displayed:
 - Add a line break between the name and region using `\\n`
+yeah did this 
 - Change the sentence format completely (e.g. “From [region], we welcome [name] to the movement!”)
 - If either input is left blank, show “Please enter both your name and region.”
 You will need an if block to do this.
@@ -33,5 +41,6 @@ Now extend it:
 1. Add a third input box for a campaign role (like “strategist” or “organiser”).
 2. Update the message to say:
    “Welcome [name] from [region]. Your role is [role] in [Party Name].”
+   nah I'm good bru
 
 When it works — test each other’s forms and make sure it handles empty inputs nicely!

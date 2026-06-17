@@ -4,7 +4,8 @@ let output = document.getElementById("output");
 
 function sayHello() {
   let name = nameInput.value;
-  output.innerText = "Welcome, " + name;
+  let role = roleInput.value
+  output.innerText = "Welcome, " + name + " to the " + role + " partie ";
 }
 
 greetButton.onclick = sayHello;
