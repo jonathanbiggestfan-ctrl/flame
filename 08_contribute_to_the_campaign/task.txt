@@ -5,15 +5,20 @@ when a button is clicked. Every $10 matters!
 
 🟡 PREDICT  
 What will the total be after 3 clicks?
+30
 What happens when you reach $50? $100?
+you get a better thank you message for your kindness
 
 🟢 RUN  
 Click the “Give $10” button a few times and see what changes on the page.
 
 🔵 INVESTIGATE  
 - What variable is keeping track of the total?
+TotalDonations
 - Where is it being updated?
+line 6 in JS
 - How does the code decide which message to show?
+based on the if statement
 
 🟠 MODIFY  
 - Add a **Refund $10** button that subtracts from the total.
