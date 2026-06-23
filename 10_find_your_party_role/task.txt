@@ -6,14 +6,18 @@ This task uses two input types you haven't worked with yet:
 
 🟡 PREDICT  
 What will happen if you pick Progressive and tick Environment?  
+- it will give you the role of outreach team
 What if you tick everything?
+- "🤝 You’d be a great all-round supporter!" is what it would say 
 
 🟢 RUN  
 Try different combinations and see which role the system suggests.
 
 🔵 INVESTIGATE  
 - How is the selected radio button being read?
+- it's being read as one thing that when presented with multiple options it only lets you choose one, even if the others have been clicked.
 - What does the loop over checkboxes do?
+- see what message would fit best depending on what 
 - What is the `includes` function doing?
 - What are the || and the && symbols doing?
 
