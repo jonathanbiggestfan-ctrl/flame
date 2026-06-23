@@ -17,12 +17,15 @@ Try different combinations and see which role the system suggests.
 - How is the selected radio button being read?
 - it's being read as one thing that when presented with multiple options it only lets you choose one, even if the others have been clicked.
 - What does the loop over checkboxes do?
-- see what message would fit best depending on what 
+- see what message would fit best depending on what user chose
 - What is the `includes` function doing?
+- "determines whether an array includes a certain value among its entries" - a dierect quote from https://developer.mozilla.org/
 - What are the || and the && symbols doing?
+- check if one condition is true ||,  checks if both conditions are true &&
 
 🟠 MODIFY  
 - Add another issue (e.g. Housing) and link it to a new role.
+DONE DONE DONE
 - Add a check that says “Too many issues selected!” if they tick more than 3 boxes.
 
 🔴 MAKE  

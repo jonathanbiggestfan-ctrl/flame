@@ -16,12 +16,14 @@ function matchRole() {
     }
 
     if (selectedIssues.length == 0) {
-      message = "Please select at least one issue you care about.";
+      message = "Please select at least one issue you do not care about."
     } else if (position == "progressive" && selectedIssues.includes("environment")) {
       message = "🌱 You’d be perfect for the Outreach Team.";
     } else if (position == "moderate" && selectedIssues.includes("economy")) {
       message = "📊 You’d make a great Policy Analyst."
     } else if (position == "traditional" || selectedIssues.includes("education")) {
+      message = "🎖️ You’d bring valuable perspective to Strategy.";
+      } else if (position == "progressive" && selectedIssues.includes("Homelessness")) {
       message = "🎖️ You’d bring valuable perspective to Strategy.";
     } else {
       message = "🤝 You’d be a great all-round supporter!";
