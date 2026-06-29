@@ -5,15 +5,20 @@ This task introduces `for` loops and how to show lists using JavaScript.
 
 🟡 PREDICT  
 What will happen when we loop through the policies array?
+EVERYTHIGN HAPPENS AGAIN AND AGAIN THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END IS NEVER THE END
 How many items will appear?
+- none
 
 🟢 RUN  
 Click “Show Policies” and see what appears in the list.
 
 🔵 INVESTIGATE  
 - What is `i` doing?
+its like the range
 - What does `policies[i]` refer to?
+indexing list and pulling out i
 - What happens if we add a new item to the array?
+it adds another item, it doesn't impact much, loops right number of times.
 
 🟠 MODIFY  
 - Add another policy
